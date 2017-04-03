@@ -1,0 +1,30 @@
+{
+  "name": "Burger",
+  "version": "1.0.0",
+  "description": "Burger App: The burger logger will us MySQL, Node, Express, Handlebars and a homemade ORM (yum!). A full-stacked application that takes user input for a burger name and adds it to the list of existing burgers database and displays these on the DOM. The user can then click the devour button to eat the burger.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aagreda/Burger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aagreda/sequelizeBurger/issues"
+  },
+  "homepage": "https://github.com/aagreda/sequelizeBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "method-override": "^2.3.7",
+    "mysql": "^2.13.0",
+    "path": "^0.12.7",
+    "sequelize": "^3.30.2"
+  }
+}
